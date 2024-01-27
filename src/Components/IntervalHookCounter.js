@@ -11,7 +11,7 @@ function IntervalHookCounter(props) {
         return () => {
             clearInterval(interval)
         }
-    })
+    }, [])
     return (<div>
             {count}
         </div>);
