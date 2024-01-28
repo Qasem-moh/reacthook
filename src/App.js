@@ -7,6 +7,8 @@ import CounterReducer from "./Components/CounterReducer";
 import DataFetchingOne from "./Components/DataFetchingOne";
 import DataFetcingTwo from "./Components/DataFetcingTwo";
 import ReduceFunction from "./Components/ReduceFunction";
+import ParentComponents from "./Components/ParentComponents";
+import Counter from "./Components/Counter";
 
 
 function App() {
@@ -19,7 +21,9 @@ function App() {
         {/*<CounterReducer/>*/}
         {/*<DataFetchingOne/>*/}
         {/*<DataFetcingTwo/>*/}
-        <ReduceFunction/>
+        {/*<ReduceFunction/>*/}
+        {/*<ParentComponents/>*/}
+        <Counter/>
         </div>);
 }
 
