@@ -6,6 +6,7 @@ import FetchData from "./Components/FetchData";
 import CounterReducer from "./Components/CounterReducer";
 import DataFetchingOne from "./Components/DataFetchingOne";
 import DataFetcingTwo from "./Components/DataFetcingTwo";
+import ReduceFunction from "./Components/ReduceFunction";
 
 
 function App() {
@@ -17,7 +18,8 @@ function App() {
         {/*<FetchData/>*/}
         {/*<CounterReducer/>*/}
         {/*<DataFetchingOne/>*/}
-        <DataFetcingTwo/>
+        {/*<DataFetcingTwo/>*/}
+        <ReduceFunction/>
         </div>);
 }
 
