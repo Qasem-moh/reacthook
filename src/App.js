@@ -3,6 +3,7 @@ import Hook from "./Components/Hook";
 import MouseMoveHook from "./Components/mouseMoveHook";
 import IntervalHookCounter from "./Components/IntervalHookCounter";
 import FetchData from "./Components/FetchData";
+import CounterReducer from "./Components/CounterReducer";
 
 
 function App() {
@@ -11,7 +12,8 @@ function App() {
         {/*<Hook/>*/}
         {/*<MouseMoveHook/>*/}
         {/*<IntervalHookCounter/>*/}
-        <FetchData/>
+        {/*<FetchData/>*/}
+        <CounterReducer/>
         </div>);
 }
 
