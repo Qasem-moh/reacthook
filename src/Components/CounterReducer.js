@@ -19,21 +19,16 @@ function CounterReducer(props) {
     const [count, dispatch] = useReducer(counterReducer, initialState)
     return (
 
-        <>
-
             <div>
                 <h2>{count.firstCounter}</h2>
-
                 <button onClick={() => dispatch({type: 'INCREMENT', value: 1})}>Increment</button>
                 <button onClick={() => dispatch({type: 'INCREMENT', value: 5})}>Increment +5</button>
                 <button onClick={() => dispatch({type: 'DECREMENT', value: 1})}>Decrement</button>
                 <button onClick={() => dispatch({type: 'DECREMENT', value: 5})}>Decrement -5</button>
                 <button onClick={() => dispatch({type: 'RESET'})}>Reset</button>
-
-
             </div>
-        </>
-            );
+
+    );
             }
 
             export default CounterReducer;
