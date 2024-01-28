@@ -5,6 +5,7 @@ import IntervalHookCounter from "./Components/IntervalHookCounter";
 import FetchData from "./Components/FetchData";
 import CounterReducer from "./Components/CounterReducer";
 import DataFetchingOne from "./Components/DataFetchingOne";
+import DataFetcingTwo from "./Components/DataFetcingTwo";
 
 
 function App() {
@@ -15,7 +16,8 @@ function App() {
         {/*<IntervalHookCounter/>*/}
         {/*<FetchData/>*/}
         {/*<CounterReducer/>*/}
-        <DataFetchingOne/>
+        {/*<DataFetchingOne/>*/}
+        <DataFetcingTwo/>
         </div>);
 }
 
