@@ -20,7 +20,7 @@ function Counter(props) {
     return (<div>
         <div>
             <button onClick={incrementOne}>Increment count one {counterOne}</button>
-            <span>{EvenOdd() ? "Even" : "odd"}</span>
+            <span>{EvenOdd ? "Even" : "odd"}</span>
         </div>
 
         <button onClick={incrementTwo}>increment count two {counterTwo}</button>
